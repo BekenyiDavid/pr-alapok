@@ -11,14 +11,14 @@ szuletesi_ev = idei_ev - felhasznalo_kora
 print("ekkor szulettel:", szuletesi_ev, ".", sep="")
 """
 # meg azt5 mogyak hogy nincsen ciganybaró
-from pickletools import read_int4
 
-gondolt_szam = 4
-tipp= input("gondoltam egy szamra. Tippeld meg! ")
-tipp = int(tipp)
-if tipp == gondolt_szam:
-    print("ciganykiraj")
-if tipp <= gondolt_szam:
-    print("nagyobb")
-if tipp >= gondolt_szam:
-    print("kisebb")
+feri = 14
+tipp= int(input("Rakj meg egy szamot!"))
+if tipp == feri:
+    print("ciganykiraj!!!!44444!! feri arany cipobe jarna jaaaaj")
+if tipp != feri:
+    print("nem halgattal a aterhes felesegedre")
+if tipp < feri:
+    print("ha a 8-at megrakta volna 2500 at fogtak volna jaaajj")
+if tipp > feri:
+    print("bazzeg feri")
