@@ -196,8 +196,9 @@ while szam != 100:
   print(szam)
 """
 #################################################
-
+"""
 szam = 0
 while True:
     szam += 1
     print(szam)
+"""
