@@ -91,7 +91,8 @@ list.insert(2, "korte")
 print(list)
 """
 ################################
-
+"""
 list = ["alma", "banan", "cseresznye"]
 list.append("korte")
 print(list)
+"""
