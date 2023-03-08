@@ -60,14 +60,18 @@ def szamlalas():
     print('A listában lévő hárommal osztható számok száma: ', darab)
 
 def szelso():
-    lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
+     lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
 
-    darab = 0
+    min = lista[0]
+    max = lista[0]
     for szam in lista:
-	      if szam % 3 == 0:
-		        darab = darab + 1
+	      if szam < min:
+		        min = szam
+	      if szam > max:
+		        max = szam
 
-    print('A listában lévő hárommal osztható számok száma: ', darab)
+    print('A legkisebb szám a listában: ', min)
+    print('A legnagyobb szám a listában: ', max)  
 
 print("1 = osszegzes")
 print("2 = eldontes")
@@ -77,7 +81,7 @@ print("5 = szamlal")
 print("6 = szelso")
 print("0 = STOP")
 
-valasz = 0
+valasz = None
 
 while valasz != range(0,6):
     valasz = int(input("mit szeretnel vegrehajtani"))
